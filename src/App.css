@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&display=swap");
+body{
+  background-image: url('music_pic.jpg');
+  
+}
 .App {
   display: flex;
   flex-direction: column;
@@ -8,15 +12,17 @@
 }
 h1 { 
   font-family: "comic-sans", cursive;
-  color: #be9adb; 
+  color: #170329; 
+  font-size: 50px;
+  text-shadow: 0 0 80px #fff, 0 0 10px #dcd5e8;
 } 
 .input-group {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-weight: bold;
 }
 
@@ -24,9 +30,9 @@ h1 {
   width: calc(100% - 20px);
   margin: 5px 0;
   padding: 10px;
-  border: 2px solid #6c9fcb;
+  border: 2px solid #4d345f;
   border-radius: 5px;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .btn {
@@ -42,14 +48,22 @@ h1 {
   outline: none;
 }
 
+.label {
+  font-size: 1.5em; 
+  text-shadow: 0 0 80px #fff, 0 0 10px #dcd5e8,0 0 10px #cb91c4, 0 0 10px #eadee8;
+}
+
+
 hr {
   margin: 20px 0;
   width: calc(100% - 20px);
   border: none;
-  border-top: 2px solid #6c9fcb;
+  border-top: 2px solid #50276d;
 }
 
 pre {
+  font-family: 'sans-serif' cursive;
   font-size: 1.5em;
-  color: #608db5;
+  color: #0c0015;
+  text-shadow: 0 0 10px #fff, 0 0 10px #cb91c4, 0 0 10px #654961, 0 0 10px #ebd0e8, 0 0 10px #baa0b7, 0 0 10px #896a86, 0 0 10px #dec8db;
 }
