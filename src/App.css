@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&display=swap");
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+h1 { 
+  font-family: "comic-sans", cursive;
+  color: #be9adb; 
+} 
+.input-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.inp, .btn, select {
+  width: calc(100% - 20px);
+  margin: 5px 0;
+  padding: 10px;
+  border: 2px solid #6c9fcb;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.btn {
+  background-color: #aa92c0;
+  color: #fff;
+  cursor: pointer;
+  width: 100px;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.inp:focus, .btn:focus {
+  outline: none;
+}
+
+hr {
+  margin: 20px 0;
+  width: calc(100% - 20px);
+  border: none;
+  border-top: 2px solid #6c9fcb;
+}
+
+pre {
+  font-size: 1.5em;
+  color: #608db5;
+}
